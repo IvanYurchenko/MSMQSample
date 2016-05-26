@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vsSBE.CI.MSBuild</id>
+    <version>1.6.1207</version>
+    <title>vsSolutionBuildEvent CI.MSBuild</title>
+    <authors>entry.reg@gmail.com</authors>
+    <owners>entry.reg@gmail.com</owners>
+    <licenseUrl>https://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/</licenseUrl>
+    <projectUrl>https://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/3F/vsSolutionBuildEvent/master/vsSolutionBuildEvent/Resources/Package.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Official package of libraries to support the CI /Build Servers for plugin vsSolutionBuildEvent.
+
+Event-Catcher with a variety of advanced Actions for maintenance of your projects and libraries, building processes and processes at runtime.
+    
+    [[ Documentation: http://vssbe.r-eg.net -&gt; http://vssbe.r-eg.net/doc/CI/CI.MSBuild/ ]]
+    * VS Gallery Page: https://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/
+    * Source code: https://github.com/3F/vsSolutionBuildEvent
+    * Public Issue Tracker still here: https://bitbucket.org/3F/vssolutionbuildevent/issues
+        
+    Package version: a.b.x[.y] -&gt; a &amp; b - CI.MSBuild (v1.6) -&gt; x - main library (1207 is a v0.12.7.3805) -&gt; y - variant of package if exists
+
+    ---
+    Alternative for getting this package if you have problem with nuget:
+    * https://github.com/3F/GetNuTool
+
+    [ msbuild.exe gnt.core /p:ngpackages="vsSBE.CI.MSBuild/1.6.1207" ]</description>
+    <summary>Official package of libraries to support the CI /Build Servers for plugin vsSolutionBuildEvent.
+
+Event-Catcher with a variety of advanced Actions for maintenance of your projects and libraries, building processes and processes at runtime.
+
+[[ vssbe.r-eg.net ]] https://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/</summary>
+    <releaseNotes>CI.MSBuild v1.6
+
+* FIXED: bug for Pre/Post-project event type ~ `"PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='')`.
+* NEW: Implemented the 'property.set' &amp; 'property.del' for Sln-Opened &amp; Sln-Closed event types.
+* CHANGED: Added 2 properties by default - `vsSolutionBuildEvent` &amp; `vssbeCIM` as the versions of this.
+
++ vsSolutionBuildEvent library: v0.12.7.3805</releaseNotes>
+    <copyright>Copyright (c) 2013-2016  Denis Kuzmin (reg) [entry.reg@gmail.com]</copyright>
+    <tags>Build automation Events Tools vsSolutionBuildEvent MSBuild vsSBE CI logging Scripts files Solution Projects version versioning AppVeyor TeamCity Build-automation custom-versioning automatic-versions downloader GetNuTool zip 7z 7zip archiver http ftp CSharp-Compiler Warnings Errors</tags>
+  </metadata>
+</package>

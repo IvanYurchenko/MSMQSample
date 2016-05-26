@@ -1,0 +1,5 @@
+c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessageTestReceiver\MessageTestReceiver\bin\Debug\MessageTestReceiver.exe.config
+c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessageTestReceiver\MessageTestReceiver\bin\Debug\MessageTestReceiver.exe
+c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessageTestReceiver\MessageTestReceiver\bin\Debug\MessageTestReceiver.pdb
+c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessageTestReceiver\MessageTestReceiver\obj\Debug\MessageTestReceiver.exe
+c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessageTestReceiver\MessageTestReceiver\obj\Debug\MessageTestReceiver.pdb
