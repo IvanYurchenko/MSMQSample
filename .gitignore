@@ -1,7 +1,5 @@
-/obj
-/bin
-*/obj
-*/bin
-/Debug
-/packages
+obj/
+bin/
+Debug/
+packages/
 *.suo
