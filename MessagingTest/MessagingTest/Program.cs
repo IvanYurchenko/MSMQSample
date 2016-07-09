@@ -13,12 +13,11 @@ namespace MessagingTest
 
     class Program
     {
-        private const string MessageAddress = @".\Private$\MyProgram";
-        private const string QueueName = ".\\Private$\\MyProgram";
+        private const string QueueName = @".\Private$\MyProgram";
 
         private static void SendMessage(string str, int x)
         {
-            using (var msmq = new MessageQueue(MessageAddress))
+            using (var msmq = new MessageQueue(QueueName))
                 msmq.Send(new MyMessage
                 {
                     Command = str,

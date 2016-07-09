@@ -1,6 +1,0 @@
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\bin\Debug\MessagingTest.exe.config
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\obj\Debug\MessagingTest.csprojResolveAssemblyReference.cache
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\bin\Debug\MessagingTest.exe
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\bin\Debug\MessagingTest.pdb
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\obj\Debug\MessagingTest.exe
-c:\users\ivan.yurchenko\documents\visual studio 2013\Projects\MessagingTest\MessagingTest\obj\Debug\MessagingTest.pdb

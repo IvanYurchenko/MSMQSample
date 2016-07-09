@@ -7,7 +7,7 @@ namespace MessageTestReceiver
 {
     public class Program
     {
-        private const string QueueName = ".\\Private$\\MyProgram";
+        private const string QueueName = @".\Private$\MyProgram";
 
         public class MyMessage
         {
